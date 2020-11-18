@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallywix-Shop</title>
+    <link rel="stylesheet" href="source/style/style.css">
+    <script src="https://use.fontawesome.com/62387abf48.js"></script>
+    <link rel="shortcut icon" href="source/img/Gallywix.png" type="image/png">
+</head>
+<body>
+
+<header>
+
+    <nav>
+        <div class="logo">
+            <img src="source/img/Gallywix.png" alt="">
+        </div>
+        <div class="nav-bg"></div>
+        <ul>
+            <li><a href="#buy">Купить</a></li>
+            <li><a href="#footer">Подписаться на рассылку</a></li>
+            <li><a href="#">Вверх</a></li>
+        </ul>
+    </nav>
+
+    <section class="slider">
+
+        <div class="container_slider_css">
+            <div class="slide s1">
+                <img class="photo_slider_css" src="source/img/cyberpunk.jpg" alt="">
+            </div>
+            <div class="slide s2">
+                <img class="photo_slider_css" src="source/img/destiny-2-beyond-light.jpg" alt="">
+            </div>
+            <div class="slide s3">
+                <img class="photo_slider_css" src="source/img/TheDark.jpg" alt="">
+            </div>
+            <div class="slide s4">
+                <img class="photo_slider_css" src="source/img/tekken2.jpg" alt="">
+                <a href="#buy" class="t4">К списку игр</a>
+            </div>
+        </div>
+
+    </section>
+
+</header>
+
+<main class="container">
+
+    <a href="#" id="scrollTop"></a>
+
+    <section>
+
+        <div class="blocks">
+            <div class="block">
+                <img src="source/img/love.png" alt="">
+                <div class="text">
+                    <p>Любовь к играм</p>
+                </div>
+            </div>
+            <div class="block">
+                <img src="source/img/sale.png" alt="">
+                <div class="text">
+                    <p>Скидки круглый год</p>
+                </div>
+            </div>
+            <div class="block">
+                <img src="source/img/smile.png" alt="">
+                <div class="text">
+                    <p>Более nnn довольных покупателей</p>
+                </div>
+            </div>
+            <div class="block">
+                <img src="source/img/support.png" alt="">
+                <div class="text">
+                    <p>Круглосуточная поддержка</p>
+                </div>
+            </div>
+            <div class="block">
+                <img src="source/img/garant.png" alt="">
+                <div class="text">
+                    <p>Гарантии</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section style="padding-top: 4vh;" class="product" id="buy">
+
+        <input type="radio" class="sort-input" id="all" name="name-type" checked value="all" hidden>
+        <input type="radio" class="sort-input" name="name-type" id="new" value="new" hidden>
+        <input type="radio" class="sort-input" name="name-type" id="lider" value="lider" hidden>
+        <input type="radio" class="sort-input" name="name-type" id="pred" value="pred" hidden>
+
+        <div class="filter-buttons">
+            <label for="all" class="filter-label">Всё</label>
+            <label for="new" class="filter-label">Новинки</label>
+            <label for="lider" class="filter-label">Лидеры продаж</label>
+            <label for="pred" class="filter-label">Предзаказы</label>
+        </div>
+
+        <div class="products">
+            <div class="product-wrap" data-category="new">
+                <div class="product-item">
+                    <img src="source/img/tekken.jpg">
+                    <div class="product-buttons">
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                </div>
+                <div class="product-title">
+                    <a href="">TEKKEN 7 – Season Pass 4<br>(Steam)</a>
+                    <span class="product-price"><s>₽ 899</s><br><p style="color:#fbbb43">₽ 809</p></span>
+                </div>
+            </div>
+            <div class="product-wrap" data-category="new">
+                <div class="product-item">
+                    <img src="source/img/destiny.jpg">
+                    <div class="product-buttons">
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                </div>
+                <div class="product-title">
+                    <a href="">Destiny 2 – Legendary Edition<br>(Steam)</a>
+                    <span class="product-price"><s>₽ 2999</s><br><p style="color:#fbbb43">₽ 2399</p></span>
+                </div>
+            </div>
+            <div class="product-wrap" data-category="lider">
+                <div class="product-item">
+                    <img src="source/img/pubg.jpg">
+                    <div class="product-buttons">
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                </div>
+                <div class="product-title">
+                    <a href="">PLAYERUNKNOWN'S BATTLEGROUNDS<br>(Steam)</a>
+                    <span class="product-price"><s>₽ 949</s><br><p style="color:#fbbb43">₽ 475</p></span>
+                </div>
+            </div>
+            <div class="product-wrap" data-category="new">
+                <div class="product-item">
+                    <img src="source/img/lad.jpg">
+                    <div class="product-buttons">
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                </div>
+                <div class="product-title">
+                    <a href="">Like a Dragon – Day Ichi Edition<br>(Steam)</a>
+                    <span class="product-price"><s>₽ 2041</s><br><p style="color:#fbbb43">₽ 1735</p></span>
+                </div>
+            </div>
+            <div class="product-wrap" data-category="pred">
+                <div class="product-item">
+                    <img src="source/img/cyp.jpg">
+                    <div class="product-buttons">
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                </div>
+                <div class="product-title">
+                    <a href="">Cyberpunk 2077<br>(Steam)</a>
+                    <span class="product-price"><s>₽ 1999</s><br><p style="color:#fbbb43">₽ 1795</p></span>
+                </div>
+            </div>
+            <div class="product-wrap" data-category="pred">
+                <div class="product-item">
+                    <img src="source/img/empire.jpg">
+                    <div class="product-buttons">
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                </div>
+                <div class="product-title">
+                    <a href="">Empire of Sin<br>(Steam)</a>
+                    <span class="product-price"><s>₽ 725</s><br><p style="color:#fbbb43">₽ 649</p></span>
+                </div>
+            </div>
+            <div class="product-wrap" data-category="lider">
+                <div class="product-item">
+                    <img src="source/img/rss.jpg">
+                    <div class="product-buttons">
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                </div>
+                <div class="product-title">
+                    <a href="">Tom Clancy's Rainbow Six Siege – Deluxe Edition<br>(Steam)</a>
+                    <span class="product-price"><s>₽ 1249</s><br><p style="color:#fbbb43">₽ 499</p></span>
+                </div>
+            </div>
+            <div class="product-wrap" data-category="lider">
+                <div class="product-item">
+                    <img src="source/img/naruto.jpg">
+                    <div class="product-buttons">
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                </div>
+                <div class="product-title">
+                    <a href="">NARUTO SHIPPUDEN: Ultimate Ninja STORM 4<br>(Steam)</a>
+                    <span class="product-price"><s>₽ 749</s><br><p style="color:#fbbb43">₽ 149</p></span>
+                </div>
+            </div>
+            <div class="product-wrap" data-category="new">
+                <div class="product-item">
+                    <img src="source/img/warhammer.jpg">
+                    <div class="product-buttons">
+                        <a href="" class="button">В корзину</a>
+                    </div>
+                </div>
+                <div class="product-title">
+                    <a href="">Warhammer: Chaosbane – The Witch Hunter<br>(Steam)</a>
+                    <span class="product-price"><s>₽ 565</s><br><p style="color:#fbbb43">₽ 509</p></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+<footer id="footer">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h6>Подписка на новостную рассылку</h6>
+                <div class="form__group">
+                    <input type="email" class="form__input" id="name" placeholder="Email" required=""/>
+                    <label for="name" class="form__label">Email</label>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2020 All Rights Reserved by
+                    </p>
+                </div>
+
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                        <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+</body>
+
+</html>
